@@ -1,0 +1,58 @@
+body {
+    
+    background-image: "background.jpg";
+    background-color:cornflowerblue;
+}
+
+ul.NavBar {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 1px;
+    border:10px;
+}
+
+ul.NavBar li {
+    display: block; 
+    float: left; 
+    
+}
+
+ul.NavBar li a {
+    padding: 16px;
+    text-decoration: none;
+    color:black;
+    background-color:lightgrey;
+    font-size: 14px;
+}
+
+ul.NavBar li a:hover {
+    background-color: darkslategrey;
+    color:white;
+    transition: 0.5s;
+
+}
+
+form {
+    display: inline-block;
+    background-color:beige;
+}
+
+h2 {
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    background: linear-gradient(to left, azure,beige);
+}
+
+p {
+    margin: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 700px;
+    display: inline-block;
+    background: beige;
+
+}
